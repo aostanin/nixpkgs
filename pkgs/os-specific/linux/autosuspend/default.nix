@@ -14,7 +14,7 @@ let
         src = fetchPypi {
           inherit (prev) pname;
           inherit version;
-          hash = "sha256-7jLvjCCAPBmpbtNmrd09SnKe9jCctcc1mgzC7ut/pGo=";
+          hash = "sha256-cF0GEtOTGm4etWM9U4EE0deg9ISckRaxsvgrwKzB3cs=";
         };
         propagatedBuildInputs = with self; [
           pytz-deprecation-shim
